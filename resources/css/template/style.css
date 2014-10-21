@@ -1,0 +1,202 @@
+#logo {
+	padding-top: 3px;
+}
+#login {
+	padding-top: 10px;
+}
+#home-logo {
+    background-image:url('http://localhost/Project_fhi/resources/images/extra/FH HR Logo.png');
+    display:block;
+    text-indent:-9999px;
+    height:50px;
+    width:72px;
+}
+#login-btn {
+  color: #ff910f;
+  background-color: #fff9ef;
+  border: 2px solid #ff910f;
+  font-weight: bold;
+/*  width: 72px;
+  height: 36px;
+  padding-top: 6px;
+  padding-left: 12px;*/
+}
+#login-btn:hover {
+	color: #ff910f;
+	background-color: #fdeccf;
+	border: 2px solid #ff910f;
+	font-weight: bold;
+}
+/*#dropdown-menu {
+  right: 0;
+  left: auto;
+  margin-top: 9px;
+}*/
+#signup-btn {
+  color: #fff;
+  background-color: #ed1953;
+  border: 2px solid #ed1953;
+  font-weight: bold;
+}
+#signup-btn:hover {
+	color: #fff;
+	background-color: #ec3265;
+	border: 2px solid #ed1953;
+	font-weight: bold;
+}
+#ul {
+	margin: 5px 0 0px 0;
+}
+footer{
+  height: auto;
+  background: #a1a1a1;
+  letter-spacing: 2px;
+  }
+  #line-footer {
+     width: 100%;
+     height: 19px;
+     background-color: #898989;
+  }
+  .main_footer {
+    width: 100%;    
+    }
+    .footer_wrapper{
+      width:86%;
+      margin:auto;
+      }
+      .footer_box{
+        width: 33%;
+        float: left;
+        margin-bottom: 38px;
+        }
+        .footer_box p{
+          margin:10px 0 10px 0;
+        }
+      #about {
+        padding: 0 10px 0 0;
+      }
+      #par-about {
+        color: #f6f7f9;
+      }
+
+
+      #positions, #contact {
+        padding: 0 0 0 10px;
+      }
+      #par-positions {
+        color: #f6f7f9;
+      }
+      #contact {
+        float: right;
+        text-align: right;
+        }
+        #par-contact {
+          margin-top: 10px;
+          color: #362f2d;
+          font-weight: 600;
+        }
+
+      #twitter-icon, #fb-icon {
+        margin-top: 28px;
+      }
+      #fb-icon {
+        margin-right: 5px;
+      }
+  #hr {
+    clear: both;
+    width: 100%;
+    border-top: 1px solid #898989;
+    }
+    #copyright{
+      margin:12px 0 12px 0;
+      float: right;
+      font-weight: 600;
+    }
+#about, #contact, #positions {
+  padding-top: 15px;
+}
+#navbarcollapse {
+  border-color: #fbcd74;
+}
+#navbarcollapse .icon-bar {
+  background-color: #fbcd74;
+}
+.navbar-inverse #navbarcollapse:hover,
+.navbar-inverse #navbarcollapse:focus {
+  background-color: #f7e9cf;
+}
+
+#logout-btn {
+  color: #fff;
+  background-color: #fdac4a;
+  border: 2px solid #fdac4a;
+  font-weight: bold;
+  margin-top: 1px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+#sett-logo:hover {
+  background-image:url('http://localhost/Project_fhi/resources/images/extra/setting icon-hover.png');
+}
+#sett-logo {
+  background-image:url('http://localhost/Project_fhi/resources/images/extra/setting icon.png');
+  display:block;
+  height:45px;
+  width:45px;
+}
+#setting-logout {
+  text-decoration: none;
+  color: #8b8989;
+}
+#setting-logout:hover {
+  color: #fdac4a;
+}
+.popover.bottom {
+  margin-top: 24px;
+}
+
+/* ======================== */
+/* Media query starts here! */
+/* ======================== */
+
+@media screen and (min-width: 220px) and (max-width: 480px){
+  .footer_wrapper{
+    width:98%;
+    font-size: 12px;
+    }
+    #line-footer {
+     width: 100%;
+     height: 10px;
+    }
+    .footer_box{
+      width: 100%;
+      float: none;
+      margin-bottom: 10px;
+      }
+      #contact {
+        float: none;
+        text-align: left;
+        }
+}
+@media screen and (min-width: 768px) and (max-width: 799px){
+  .footer_wrapper{
+    width:97%;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 900px){
+  .footer_wrapper{
+    width:93%;
+    }
+}
+@media screen and (min-width: 980px) and (max-width: 1020px){
+  .footer_wrapper{
+    width:76%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+  .footer_wrapper{
+    width:94%;
+    }
+}

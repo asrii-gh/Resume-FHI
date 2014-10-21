@@ -1,0 +1,19 @@
+#picture_logo {
+	margin-top: 55px;
+}
+#para-upload {
+	font-size: 11px;
+}
+#btn-submit {
+	margin-bottom: 35px;
+}
+#admin-success-message {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #A8A8A8;
+  	background-color: #f5f5f5;
+  	border-color: #ddd;
+  	margin-top: 10px;
+  	padding: 10px;
+}

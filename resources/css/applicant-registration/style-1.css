@@ -1,0 +1,31 @@
+#head-space {
+	height: 22px;
+	width: 1170px;
+}
+#content{
+	background-color: #eeeeee;
+}
+#img-signup {
+	padding-top: 60px;
+}
+/* Image steps*/
+#icon-steps {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+/* Form group */
+#fullname {
+	margin-top: 15px;
+}
+#fullname-label, #email-label,
+#password-label, #confpass-label {
+	font-family: 'Calibri';
+	font-size: 19px;
+	color: #636363;
+}
+#remember-label1, #remember-label3 {
+	color: #858585;
+}
+#remember-label2, #remember-label4 {
+	color: #f7941d;
+}

@@ -1,0 +1,201 @@
+#img_banner {
+	width:100%;
+}
+.job_offer{
+  cursor: pointer;
+  width: 100%;
+}
+
+#content_wrapper {
+  
+  width: 100%;
+  /*z-index: -1;*/
+  }
+#content_wrapper_2{
+  margin: 180px 0  0 730px;
+  position: absolute;
+  float: right;
+  width: auto;
+  }
+  #content_img_btn{
+    text-align: center;
+    height: 72px;
+    }
+    .inner-image{
+      margin-right: 77px;
+    }
+    .inner-image, .inner2-image {
+        width: 187px;
+    }
+    #login-p {
+      font-family: 'calibrib';
+      font-size: 22px;
+      color: #534741;
+      margin: 40px 0 0 100px;
+    }
+
+
+#login-text {
+	color: #ed1953;
+	top: 10px;
+  right: 113px;
+}
+#cs-icon, #mrktg-icon, #it-icon, #hr-icon,#mngmnt-icon {
+  padding-top: 20px;
+}
+#panelbody {
+  background-color: #ebebeb;
+}
+#code-label {
+  color: #379a8a;
+  font-weight: bold;
+  font-family: 'Calibri';
+}
+#position-label {
+  color: #379a8a;
+  font-weight: bold;
+  font-family: 'Calibri';
+  font-size: 18px;
+}
+#offer-label {
+  text-align: left;
+}
+#btn-favorite {
+  color: #fff;
+  background-color: #f26522;
+  border-color: #eea236;
+}
+#btn-favorite:hover,
+#btn-favorite:focus,
+#btn-favorite:active,
+#btn-favorite.active {
+  color: #fff;
+  background-color: #e24e07;
+  border-color: #d58512;
+}
+#btn-skip {
+  color: #fff;
+  background-color: #898989;
+  border-color: #797676;
+}
+#btn-skip:hover,
+#btn-skip:focus,
+#btn-skip:active,
+#btn-skip.active {
+  color: #fff;
+  background-color: #6e6666;
+  border-color: #8a8686;
+}
+
+#category-table-2{
+  display: none;
+}
+
+.job_desc_txt{
+    white-space: nowrap; 
+      width: 500px; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+
+/* ======================== */
+/* Media query starts here! */
+/* ======================== */
+
+@media screen and (min-width: 220px) and (max-width: 480px) {
+
+  #content_wrapper_2{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    }
+    #content_img_btn{
+      width: 202px;
+      height: auto;
+      margin: auto;
+      padding: 50px 0 0 0;
+    }
+    .inner-image, .inner2-image {
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    #login-p {
+      margin: 0;
+      padding-top: 10px;
+      font-size: 20px;
+    }
+    #content_wrapper {
+      height: 410px;
+      width: 100%;      
+      background: url('../../images/extra/FH HR Banner_480x480.jpg');
+    }
+  #img_banner {
+    display: none;
+  }
+
+  #category-table{
+    /*display: none;*/
+  }
+
+  #category-table-2{
+    display: block;
+    }
+    #category-table-2 img{
+      width:32%;
+      padding-top: 10px;
+    }  
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 798px) {
+
+  #content_wrapper_2{
+    margin: 100px 0  0 407px;
+    }
+    .inner-image{
+      margin-right: 47px;
+    }
+    .inner-image, .inner2-image {
+        width: 110px;
+    }
+    #login-p {
+      margin: -10px 0 0 60px;
+      font-size: 18px;
+    }
+
+}
+@media screen and (min-width: 800px) and (max-width: 850px) {
+
+  #content_wrapper_2{
+    margin: 100px 0  0 427px;
+    }
+    .inner-image{
+      margin-right: 47px;
+    }
+    .inner-image, .inner2-image {
+        width: 115px;
+    }
+    #login-p {
+      margin: -10px 0 0 66px;
+      font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 980px) and (max-width: 1024px) {
+
+  #content_wrapper_2{
+    margin: 130px 0  0 527px;
+    }
+    .inner-image{
+      margin-right: 67px;
+    }
+    .inner-image, .inner2-image {
+        width: 135px;
+    }
+    #login-p {
+      margin: 10px 0 0 76px;
+      font-size: 20px;
+    }
+
+}

@@ -1,0 +1,122 @@
+/** Applicant List **/
+
+#text-decoration {
+	text-decoration: none;
+	color: #6F6F6F;
+}
+#text-decoration:hover {
+	color: #f0ad4e;
+}
+
+/** Admin Page **/
+/* Applicant Profile */
+
+#admin-head {
+    background-color: #ffffff;
+    border-radius: 12px 12px 12px 12px;
+    border: 1px solid #ddd;
+}
+#admin-name-label {
+    color: #A7A7A7;
+    font-weight: bold;
+}
+#admin-name-div {
+    height: 90px;
+    width: 64.666667%;
+}
+#admin-status-table {
+    border: none;
+}
+#admin-panel-body {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+}
+#admin-col-md-4 {
+    width: 32.333333%;
+
+}
+#admin-col-md-1-img {
+    width: 24.333333%;
+    padding-right: 0px;
+    padding-left: 0px;
+    cursor: pointer;
+    cursor: hand;
+}
+#admin-col-md-3-img {
+    width: 68%;
+    padding-left: 3px;
+    padding-right: 0px;
+}
+#admin-col-md-1-logo {
+    width: 12.333333%;
+    height: 33px;
+    padding-right: 0px;
+    padding-left: 0px
+}
+#admin-status-table {
+    border: none;
+}
+#admin-title-label {
+    color: #C9C2C2;
+    font-size: 15px;
+}
+#admin-result-label {
+    color: #8b8989;
+    font-size: 15px;
+}
+#admin-badge-label {
+    color: #ffffff;
+    background-color: #f0ad4e;
+}
+#admin-glyphicon-pencil {
+    font-size: 20px;
+    color: #8b8989;
+    padding-top: 10px;
+}
+#admin-glyphicon-pencil:hover {
+    color: #f0ad4e;
+}
+#admin-btn-div {
+    margin-top: 20px;
+    margin-left: 275px;
+}
+#admin-edit-delete {
+    margin-top: 20px;
+}
+.carousel-control {
+    opacity: 0;
+}
+#image {
+    margin-top: 55px;
+}
+
+/** Export Codes **/
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+    background: 0 0;
+}
+
+table.dataTable thead .sorting_asc:after {
+    content: "\f0de";
+    float: right;
+    font-family: fontawesome;
+}
+
+table.dataTable thead .sorting_desc:after {
+    content: "\f0dd";
+    float: right;
+    font-family: fontawesome;
+}
+
+table.dataTable thead .sorting:after {
+    content: "\f0dc";
+    float: right;
+    font-family: fontawesome;
+    color: rgba(50,50,50,.5);
+}

@@ -1,0 +1,312 @@
+#head-space {
+	height: 10px;
+	width: 1170px;
+}
+#head {
+	background-color: #ffffff;
+	border-radius: 12px 12px 12px 12px;
+	border: 1px solid #ddd;
+}
+#panel-body {
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+}
+#name-label {
+	color: #A7A7A7;
+	font-weight: bold;
+}
+#name-div {
+	height: 100px;
+	width: 71.666667%;
+}
+#title-label {
+	color: #C9C2C2;
+	font-size: 17px;
+}
+#result-label {
+	color: #8b8989;
+	font-size: 17px;
+}
+
+#employer-heading {
+	padding-top: 60px;
+}
+#image-input {
+	margin-top: 88px;
+}
+#para-upload {
+	font-size: 11px;
+	padding-top: 13px;
+}
+#preview-image {
+	margin-bottom: 30px;
+	margin-top: 38px;
+}
+#btn-submit {
+	padding-left: 8px;
+	padding-right: 8px;
+	background-color: #f7941d;
+	border: 1px solid #f7941d;
+}
+#btn-cancel {
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #eeeeee;
+	color: #898989;
+	border: 1px solid #eeeeee;
+}
+#content2, #content, #content3 {
+	background-color: #eeeeee;
+}
+#content3 {
+	width: 1170px;
+	height: 10px;
+}
+#content4 {
+	width: 1170px;
+	height: 22px;
+}
+
+/*  */
+/* POST_JOB CUSTOM CSS */
+
+/* Start of Buttons CSS*/
+#applicant_list_btn button, input[type="reset"], input[type="submit"]{
+	border:0;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 800;
+	color: #fff;
+	padding:10px;
+	width: 126px;
+	margin-left: 14px;
+}
+#applicant_list_btn{
+	float: right;
+	margin: 36px 24px 0 0;
+	}
+	#interview_btn{
+		background: #f7941d;
+	}
+	#unqulified_btn{
+		background: #898989;
+	}
+#new_job_post_btn{
+	margin: 36px 0 0 42px;
+	}
+	#edit_btn{
+		background: #959595;
+	}
+	#submit_btn{
+		background: #f7941d;
+	}
+/* End of Buttons CSS*/
+
+.top_wrapper{
+	padding:30px 0 48px 0;
+	background: #fbf0dc;
+	}
+	.info{
+		float: left;
+	}
+		#info_wrapper{
+			margin-left: 76px;
+			width: 67%;
+		}
+		.profile_img{
+			padding:6px;
+			border:1px solid #000;
+			width: 288px;
+			background: #f6f7f9;
+			}
+			.profile_img img{
+				width: 100%;
+			}
+		#status_wrapper{
+			text-transform: uppercase;
+			border-top: 1px solid #898989;
+			border-bottom: 1px solid #898989;
+			width: 100%;
+			}
+			.status_list{
+				float: left;
+				padding:0 20px 0 10px;
+				}
+				#job_ulpoad{
+				color: #f27525;
+				}
+			#clearer{
+				clear: both;
+				width: 100%;
+			}
+		#login_info_wrapper{
+			margin-bottom: 20px;
+		}
+		.login_info{
+			padding:16px;
+			font-size: 16px;
+			margin-bottom: 10px;
+			}
+			.login_details{
+				background: #f9e5c0;
+				font-size: 16px;
+				padding:3px 2px 2px 8px;
+				border-radius: 5px;
+				width: 100%;
+			}
+.list_title {
+	border-bottom: 1px solid #898989;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	}
+	.list_title h1{
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+.applicant_list{
+	background: #ebebeb;
+	border-radius: 5px;
+	width: 100%;
+	height: 438px; 
+	padding:45px 36px 45px 36px;
+	overflow-y: scroll; 
+	}
+	#select{
+		float: right;
+		margin-right: 38px;
+	}
+	.list_wrapper{
+		border-bottom: 1px solid #898989;
+		padding: 0 38px 26px 38px;
+		clear: both;
+		}
+		.applicant_name{
+			font-size: 18px;
+		}
+
+.new_job_post {
+	background: #ebebeb;
+	border-radius: 5px;
+	width: 100%;
+	height: auto; 
+	padding:45px 36px 45px 36px;
+	}
+	.post_fields{
+		margin-bottom:8px;
+	}
+	select .post_fields{
+		border:0;
+		border-radius: 5px;
+		width: 200px;
+		padding:3px;
+	}
+	.job_desc_content textarea{
+		height: 270px;
+		resize:none;
+	}
+
+.box_wrapper{
+	padding: 0 38px 26px 38px;
+}
+.box_list .box_wrapper{
+	background: #ebebeb;
+	border-radius: 5px;
+	margin-bottom: 16px;
+	padding: 26px 38px 26px 38px;
+	font-size: 18px;
+	}
+	.labels{
+		color: #111111;
+		font-weight: 800;
+	}
+	.job_desc_txt{
+		white-space: nowrap; 
+	    width: 650px; 
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+	.view_link{
+		float: right;
+		margin-top: -25px;
+		
+	}
+	.view_link a{
+		color:#f06520;
+		text-decoration: none;
+	}
+	.view_link a:hover{
+		color:#eed0c8;
+	}
+
+.sub_title_1 h1{
+	font-size: 18px;
+	font-weight: 800;
+}
+.sub_title_2 h1{
+	font-size: 16px;
+	font-weight: 800;
+}
+.benefits_list{
+	font-size: 14px;
+	font-weight: 600;
+}
+.check_boxes{
+	margin-right: 10px;
+}
+
+/* View Client Job CSS */
+.title, .title h1{	
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 14px;
+	}
+	.title h1{
+		padding:30px 0 30px 0;
+		font-size: 24px;
+	}
+
+a, a:hover{
+	color:#FFF;
+	text-decoration: none;	
+}
+button, .button{
+	text-transform: uppercase;
+}
+
+
+/* ======================== */
+/* Media Query starts here! */
+/* ======================== */
+@media screen and (min-width: 220px) and (max-width: 767px){
+	.top_wrapper{
+		padding:0;
+		background: #fbf0dc;
+		}
+		.info{
+			float: none;
+			}
+			#info_wrapper{
+				margin-left: 0;
+				width: 100%;
+			}
+	}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	#info_wrapper{
+		margin-left: 50px;
+		width: 51%;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	#info_wrapper{
+		margin-left: 50px;
+		width: 61%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+	
+	.job_desc_txt{
+	    width: 400px;
+	}
+}

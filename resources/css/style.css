@@ -1,0 +1,108 @@
+	
+	#main-container, #header-title, footer{
+		width:1024px;
+		padding:20px;
+		margin:auto;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+	#main-container{
+		border:1px solid #999966;
+		border-radius:5px;
+	}
+	#header-title{
+		text-align: center;
+	}
+	thead{
+		font-weight: 800;
+		font-size: 20px;
+	}
+	tbody{
+		font-weight: 400;
+		font-size: 14px;
+	}
+	#div-img{
+		width:882px;
+		margin:auto;
+		}
+		#banner-img{
+			width:882px;
+			border-radius:5px;
+		}
+	#text-wrapper{
+		width:882px;
+		margin:auto;
+		}
+		#div-1, #div-2, #div-3{
+			width:260px;
+			padding:0 10px 0 10px;
+		}
+		#div-1,#div-2{
+
+			float: left;
+		}
+		#div-2{
+			
+		}
+	#footer{
+		width:100%;
+		margin:auto;
+		text-align: center;
+	}
+
+	#view-pagination {
+		position: center;
+	}
+
+	/* Code form Bootstrap */
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#backbutton, #nextbutton {
+	margin-top: 15px;
+}
+#image1, #image2, #image3 {
+	width: 200px;
+	height: 150px;
+}
+#image1, #image2 {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+#image3 {
+	margin-top: 7px;
+}
+#image1id, #image2id {
+	margin-bottom: 3px;
+}
